@@ -190,42 +190,22 @@ nav.fixed-top .nav-item .nav-link:before {
 
 ==================================================*/
 #hero_section{
-    width: 100%;
-    height: 100vh;
-    background-image: url("../img/hero3.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+	width:100%;
+	min-height: 600px;
+	background:linear-gradient( rgba(0,0,0.2), 
+  rgba(0,0,0,0.2)),url(../img/hero3.jpeg);
+	background-size: cover;
+	background-position: center;
+	justify-content: center;
+	align-items: center;
 }
 
-/* Video as background */
-.bg-video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 0;
-}
-
-/* Dark overlay (optional but recommended) */
-#hero_section::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(
-        rgba(0,0,0,0.25),
-        rgba(0,0,0,0.25)
-    );
-    z-index: 1;
-}
-
-/* Content upar rahe */
-.zindex{
-    position: relative;
-    z-index: 2;
+.banner_cnt{
+	margin: 0 auto;
+	margin-top: 300px;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
 
