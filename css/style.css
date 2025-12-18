@@ -220,7 +220,7 @@ nav.fixed-top .nav-item .nav-link:before {
 .banner_cnt h2{
 	width:60%;
 	margin: 50px auto;
-	border:2px solid #1e7f35;
+	border: none;
 	background: none;
 	color:#fff;
 	padding: 10px;
